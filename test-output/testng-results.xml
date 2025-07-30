@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-04T08:59:26 IST" name="Suite" finished-at="2025-07-04T09:05:31 IST" duration-ms="365024">
+    <groups>
+    </groups>
+    <test started-at="2025-07-04T08:59:26 IST" name="Test1" finished-at="2025-07-04T09:02:31 IST" duration-ms="185064">
+      <class name="base.DeletingSkillSet">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:base.DeletingSkillSet@279fedbd]" started-at="2025-07-04T08:59:27 IST" name="openBrowser" finished-at="2025-07-04T08:59:38 IST" duration-ms="11479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginToWebsite()[pri:-1, instance:base.DeletingSkillSet@279fedbd]" started-at="2025-07-04T08:59:38 IST" name="loginToWebsite" finished-at="2025-07-04T08:59:40 IST" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToWebsite -->
+        <test-method signature="jobCategoriesOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:base.DeletingSkillSet@279fedbd]" started-at="2025-07-04T08:59:41 IST" name="jobCategoriesOperation" data-provider="dp" finished-at="2025-07-04T08:59:58 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="16816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amsterdam-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobCategoriesOperation -->
+        <test-method signature="jobCategoriesOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:base.DeletingSkillSet@279fedbd]" started-at="2025-07-04T08:59:58 IST" name="jobCategoriesOperation" data-provider="dp" finished-at="2025-07-04T09:00:16 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="17422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NetherLands-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Albania]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobCategoriesOperation -->
+        <test-method signature="jobCategoriesOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:base.DeletingSkillSet@279fedbd]" started-at="2025-07-04T09:00:16 IST" name="jobCategoriesOperation" data-provider="dp" finished-at="2025-07-04T09:00:32 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="16772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SwitzerLand-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobCategoriesOperation -->
+        <test-method signature="organizationLocationOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:base.DeletingSkillSet@279fedbd]" started-at="2025-07-04T09:00:33 IST" name="organizationLocationOperation" data-provider="dp" finished-at="2025-07-04T09:00:54 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="20930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amsterdam-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- organizationLocationOperation -->
+        <test-method signature="organizationLocationOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:base.DeletingSkillSet@279fedbd]" started-at="2025-07-04T09:00:54 IST" name="organizationLocationOperation" data-provider="dp" finished-at="2025-07-04T09:01:13 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="18910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NetherLands-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Albania]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- organizationLocationOperation -->
+        <test-method signature="organizationLocationOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:base.DeletingSkillSet@279fedbd]" started-at="2025-07-04T09:01:13 IST" name="organizationLocationOperation" data-provider="dp" finished-at="2025-07-04T09:01:32 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="19309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SwitzerLand-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- organizationLocationOperation -->
+        <test-method signature="qualificationSkillsOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:base.DeletingSkillSet@279fedbd]" started-at="2025-07-04T09:01:33 IST" name="qualificationSkillsOperation" data-provider="dp" finished-at="2025-07-04T09:01:49 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="16764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amsterdam-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qualificationSkillsOperation -->
+        <test-method signature="qualificationSkillsOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:base.DeletingSkillSet@279fedbd]" started-at="2025-07-04T09:01:49 IST" name="qualificationSkillsOperation" data-provider="dp" finished-at="2025-07-04T09:02:06 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="16817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NetherLands-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Albania]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qualificationSkillsOperation -->
+        <test-method signature="qualificationSkillsOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:base.DeletingSkillSet@279fedbd]" started-at="2025-07-04T09:02:06 IST" name="qualificationSkillsOperation" data-provider="dp" finished-at="2025-07-04T09:02:23 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="17056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SwitzerLand-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qualificationSkillsOperation -->
+        <test-method is-config="true" signature="logoutOfWebsite()[pri:0, instance:base.DeletingSkillSet@279fedbd]" started-at="2025-07-04T09:02:23 IST" name="logoutOfWebsite" finished-at="2025-07-04T09:02:30 IST" duration-ms="6978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfWebsite -->
+        <test-method is-config="true" signature="writeIntoExcel()[pri:0, instance:base.DeletingSkillSet@279fedbd]" started-at="2025-07-04T09:02:30 IST" name="writeIntoExcel" finished-at="2025-07-04T09:02:31 IST" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeIntoExcel -->
+      </class> <!-- base.DeletingSkillSet -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-07-04T09:02:32 IST" name="Test2" finished-at="2025-07-04T09:05:31 IST" duration-ms="179338">
+      <class name="base.DeletingSkillSet">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:base.DeletingSkillSet@4c309d4d]" started-at="2025-07-04T09:02:32 IST" name="openBrowser" finished-at="2025-07-04T09:02:39 IST" duration-ms="7161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginToWebsite()[pri:-1, instance:base.DeletingSkillSet@4c309d4d]" started-at="2025-07-04T09:02:39 IST" name="loginToWebsite" finished-at="2025-07-04T09:02:42 IST" duration-ms="2501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToWebsite -->
+        <test-method signature="jobCategoriesOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:base.DeletingSkillSet@4c309d4d]" started-at="2025-07-04T09:02:42 IST" name="jobCategoriesOperation" data-provider="dp" finished-at="2025-07-04T09:02:59 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="17452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amsterdam-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobCategoriesOperation -->
+        <test-method signature="jobCategoriesOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:base.DeletingSkillSet@4c309d4d]" started-at="2025-07-04T09:02:59 IST" name="jobCategoriesOperation" data-provider="dp" finished-at="2025-07-04T09:03:16 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="17134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NetherLands-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Albania]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobCategoriesOperation -->
+        <test-method signature="jobCategoriesOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:base.DeletingSkillSet@4c309d4d]" started-at="2025-07-04T09:03:16 IST" name="jobCategoriesOperation" data-provider="dp" finished-at="2025-07-04T09:03:33 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="16607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SwitzerLand-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobCategoriesOperation -->
+        <test-method signature="organizationLocationOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:base.DeletingSkillSet@4c309d4d]" started-at="2025-07-04T09:03:33 IST" name="organizationLocationOperation" data-provider="dp" finished-at="2025-07-04T09:03:53 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="20118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amsterdam-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- organizationLocationOperation -->
+        <test-method signature="organizationLocationOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:base.DeletingSkillSet@4c309d4d]" started-at="2025-07-04T09:03:53 IST" name="organizationLocationOperation" data-provider="dp" finished-at="2025-07-04T09:04:13 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="19320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NetherLands-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Albania]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- organizationLocationOperation -->
+        <test-method signature="organizationLocationOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:base.DeletingSkillSet@4c309d4d]" started-at="2025-07-04T09:04:13 IST" name="organizationLocationOperation" data-provider="dp" finished-at="2025-07-04T09:04:32 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="18847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SwitzerLand-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- organizationLocationOperation -->
+        <test-method signature="qualificationSkillsOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:base.DeletingSkillSet@4c309d4d]" started-at="2025-07-04T09:04:32 IST" name="qualificationSkillsOperation" data-provider="dp" finished-at="2025-07-04T09:04:50 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="17783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amsterdam-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qualificationSkillsOperation -->
+        <test-method signature="qualificationSkillsOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:base.DeletingSkillSet@4c309d4d]" started-at="2025-07-04T09:04:50 IST" name="qualificationSkillsOperation" data-provider="dp" finished-at="2025-07-04T09:05:07 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="17335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NetherLands-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Albania]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qualificationSkillsOperation -->
+        <test-method signature="qualificationSkillsOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:base.DeletingSkillSet@4c309d4d]" started-at="2025-07-04T09:05:07 IST" name="qualificationSkillsOperation" data-provider="dp" finished-at="2025-07-04T09:05:24 IST" depends-on-methods="base.DeletingSkillSet.loginToWebsite" duration-ms="17259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SwitzerLand-HQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing Demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qualificationSkillsOperation -->
+        <test-method is-config="true" signature="logoutOfWebsite()[pri:0, instance:base.DeletingSkillSet@4c309d4d]" started-at="2025-07-04T09:05:24 IST" name="logoutOfWebsite" finished-at="2025-07-04T09:05:31 IST" duration-ms="6328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfWebsite -->
+        <test-method is-config="true" signature="writeIntoExcel()[pri:0, instance:base.DeletingSkillSet@4c309d4d]" started-at="2025-07-04T09:05:31 IST" name="writeIntoExcel" finished-at="2025-07-04T09:05:31 IST" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeIntoExcel -->
+      </class> <!-- base.DeletingSkillSet -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
